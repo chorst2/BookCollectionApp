@@ -1,0 +1,15 @@
+#genreCards{
+    margin: 50px;
+}
+
+.v-toolbar__content{
+    justify-content: center;
+}
+
+#app{
+    background-color: #646963;
+}
+
+.v-application{
+    font-family: 'Gluten', cursive;
+}
