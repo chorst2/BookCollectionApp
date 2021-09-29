@@ -217,7 +217,7 @@ Vue.component('PopUp', {
                             Close
                         </v-btn>
                         <v-btn
-                                color="secondary"
+                                color="accent"
                                 text
                                 @click="buttonFunction(); showDialog.show = false">
                             Save
