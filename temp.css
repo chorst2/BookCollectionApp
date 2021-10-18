@@ -9,7 +9,35 @@
 #app{
     background-color: #646963;
 }
+/*navbar title*/
+.v-application .v-toolbar__content{
+    font-family: 'Rampart One', cursive;
+    text-shadow: 2px 2px #86b4b6;
+}
 
-.v-application{
-    font-family: 'Gluten', cursive;
+/*genre title or card title*/
+.v-application .v-card__title{
+    font-family: 'Staatliches', cursive;
+    text-shadow: 1px 1px 3px #BFEDEF;
+}
+
+/*content inside of the card (the items)*/
+.v-application .v-list-item__content{
+    font-family: 'Merienda', cursive;
+}
+
+/*cannot figure out how to make this work*/
+.v-dialog .v-card .v-card__title{
+    font-family: 'Rampart One', cursive;
+}
+
+/*add button drop down options*/
+.v-list-item .v-list-item__title{
+    font-family: 'Merienda', cursive;
+    padding: 3px;
+}
+
+.v-list-item:hover .v-list-item__title:hover{
+    cursor: default;
+    font-size: large;
 }
